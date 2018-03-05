@@ -8,6 +8,8 @@ describe('Cut', function() {
             "sit voluptatem accusantium doloremque laudantium, totam rem aperiam, " +
             "eaque ipsa quae ab illo inventore veritatis et quasi " +
             "architecto beatae vitae dicta sunt explicabo.", 150, false, "...");
+
+        console.log(value);
         assert.ok(value.length === 153);
         done();
     });
